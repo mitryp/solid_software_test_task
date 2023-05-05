@@ -116,5 +116,8 @@ class _ColoredBackgroundState extends State<ColoredBackground>
       ..addListener(_animationUpdateCallback);
   }
 
-  void _animationUpdateCallback() => setState(() {});
+  void _animationUpdateCallback() => setState(() {
+    // to remove the 'avoid empty blocks' lint.
+    return;
+  });
 }

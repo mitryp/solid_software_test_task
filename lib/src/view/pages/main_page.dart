@@ -40,7 +40,7 @@ class MainPage extends StatelessWidget {
       'Hello world',
       backgroundColor: backgroundColor,
       colorChangeDuration: colorChangeDuration,
-      style: TextStyle(fontSize: textFontSize),
+      style: TextStyle(fontSize: textFontSize, fontWeight: FontWeight.bold),
     );
   }
 }

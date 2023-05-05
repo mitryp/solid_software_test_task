@@ -14,5 +14,5 @@ Color computeContrastShade(Color color) =>
 Color _makeContrastColor(double luminance) {
   const contrastLuminanceThreshold = 0.4;
 
-  return luminance > contrastLuminanceThreshold ? Colors.black : Colors.white;
+  return luminance >= contrastLuminanceThreshold ? Colors.black : Colors.white;
 }
